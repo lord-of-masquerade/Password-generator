@@ -8,3 +8,7 @@ def generate_password(length=12):
     # Pick random choice characters 'length' times
     password = ''.join(random.choice(chars) for _ in range(length))
     return password
+
+if __name__ == "__main__":
+    print(generate_password())
+    print(generate_password(16))
