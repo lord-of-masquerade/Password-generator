@@ -1,2 +1,18 @@
-# Password-generator
-Secure Password Generator | Python Built a customizable password generation tool using Python, enabling users to generate strong passwords based on configurable security rules.
+# Secure Password Generator
+
+A Python-based command-line tool to generate strong, customizable passwords using randomization and rule-based logic.
+
+## Features
+- User-defined password length
+- Optional uppercase, numbers, and symbols
+- Ensures strong password composition
+
+## Tech Used
+- Python
+- random module
+
+## How to Run
+python password_generator.py
+
+## License
+MIT License
